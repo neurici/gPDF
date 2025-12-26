@@ -1,102 +1,168 @@
-# gPDF: An Open-Source, Privacy-Focused PDF WebApp
+# 📄 gPDF – Privacy-Focused, Open-Source PDF WebApp
 
-gPDF is an Open-Source, Privacy-Focused Alternative to popular WebApps such as ILovePDF, Small PDF, PDFCandy, and FreeConvert. We offer 30+ Tools, all Free, with No Ads, No File Size Limits, Unlimited Batch Processing, No Registration Needed, & Unlimited Usage. We make it easy for anyone to modify their PDF File efficiently and with privacy in mind. We developed gPDF with two things in mind: Privacy and User Experience. We made gPDF to be completely, 100% client-side, meaning your PDF Files are never uploaded to any server ever. We can't and will never see what files you use on our WebApp. We also don't sell your data, have ads, or track you in any way. We are committed to your privacy and strive to limit tracking by avoiding unnecessary data collection wherever possible. gPDF was also built to be as code-efficient as possible, allowing you to convert, & modify your PDF File efficiently. We are funded by only two things: Sponsors, & Voluntary Donators. We believe this approach is the best way to fund our WebApp without having a PayWall or Ads that track your data, while being able to afford keeping our WebApp running.
+**gPDF** is a free, open-source, privacy-focused alternative to popular PDF web tools like **ILovePDF**, **SmallPDF**, **PDFCandy**, and **FreeConvert**.
 
-## Our Mission
+🚀 **30+ tools**  
+🔒 **100% client-side (no uploads, ever)**  
+🆓 **Free, unlimited usage**  
+🚫 **No ads, no tracking, no registration**  
 
-We believe that simple tools like PDF WebApps should have been open-sourced, privacy-focused, and free a long time ago. That's why we're committed to making the ultimate PDF WebApp for users. There's simply no other PDF WebApp that exists that is as privacy-focused, open-sourced, free, & as user-friendly as gPDF. gPDF is an ongoing mission to create the best PDF WebApp for all your needs.
+gPDF was built with two core principles in mind:
 
-## Features
+> **Privacy first. User experience always.**
 
-gPDF offers 30+ tools to help you manage your PDF files:
+---
 
-**Conversion Tools**
+## 🌐 Live Demo
 
-*   **JPEG to PDF:** Convert JPEG images to PDF documents.
-*   **PNG to PDF:** Convert PNG images to PDF documents.
-*   **TXT to PDF:** Convert text files to PDF documents.
-*   **PDF to JPEG:** Convert PDF pages to JPEG images.
-*   **PDF to PNG:** Convert PDF pages to PNG images.
-*   **PDF to TXT:** Extract text from PDF files.
-*   **HEIF/HEIC to PDF:** Convert HEIF/HEIC images to PDF documents.
-*   **HTML to PDF:** Convert HTML files to PDF documents.
-*   **Markdown to PDF:** Convert Markdown files to PDF documents.
-*   **Word to PDF:** Convert Word documents to PDF documents.
-*   **XLSX to PDF:** Convert Excel files to PDF documents.
-*   **WEBP to PDF:** Convert WEBP images to PDF documents.
-*   **SVG to PDF:** Convert SVG images to PDF documents.
-*   **WEBP to JPEG:** Convert WEBP images to JPEG format.
-*   **WEBP to PNG:** Convert WEBP images to PNG format.
-*   **SVG to PNG:** Convert SVG images to PNG format.
-*   **SVG to JPEG:** Convert SVG images to JPEG format.
-*   **PPT/PowerPoint to PDF:** Convert PowerPoint files to PDF documents.
-*   **RTF to PDF:** Convert RTF files to PDF documents.
-*   **Image Compression:** Compress images to reduce file size.
+- **Website:** https://gpdf.page.gd/
+- **Blog:** https://gpdf.page.gd/blog.html
+- **Changelog:** https://gpdf.page.gd/changelog.html
 
+---
 
-**Editing and Management Tools**
+## ✨ Why gPDF?
 
-*   **Compress PDF:** Reduce the file size of your PDF documents.
-*   **Merge PDF:** Combine multiple PDF files into a single document.
-*   **Split PDF:** Split a single PDF into multiple files.
-*   **Extract Pages:** Extract specific pages from a PDF file.
-*   **Remove Pages:** Remove specific pages from a PDF file.
-*   **Sort Pages:** Reorder the pages in a PDF file.
-*   **Rotate PDF:** Rotate the pages in a PDF file.
-*   **Flatten PDF:** Permanently embed form fields and annotations into page content.
-*   **Compare PDFs:** Compare two PDF files to see the differences.
+Unlike most PDF web apps, **gPDF never uploads your files to any server**.  
+Everything happens **locally in your browser**.
 
-**Privacy Tools:**
+✔ We **cannot see** your files  
+✔ We **do not track** you  
+✔ We **do not sell** your data  
+✔ We **do not show ads**  
 
-*   **Remove Metadata:** Remove hidden metadata from your PDF files.
-*   **Remove Password:** Remove a password from a PDF file (if you have the password).
-*   **Encrypt PDF:** Encrypt your PDF with a password. (AES-256)
-*   **Edit Metadata:** Edit the metadata of your PDF files.
+gPDF is funded **only by sponsors and voluntary donations**, ensuring long-term sustainability without compromising user privacy.
 
-## How to Use gPDF
+---
 
-Using our site is easy. Simply visit our website and select the tool you want to use. Then, upload your file and follow the on-screen instructions. All processing is done in your browser, so your files never leave your computer.
+## 🧰 Features
 
-## Quick Links
+### 🔄 Conversion Tools
 
-- Website: https://gpdf.page.gd/
-- Blog: https://gpdf.page.gd/blog.html
-- Changelog: https://gpdf.page.gd/changelog.html
-- Privacy Policy: https://gpdf.page.gd/privacy.html
-- Terms of Service: https://gpdf.page.gd/terms.html
-- Support Us: https://gpdf.page.gd/support.html
-- GitHub: https://github.com/neurici/gPDF
+- JPEG → PDF  
+- PNG → PDF  
+- TXT → PDF  
+- PDF → JPEG  
+- PDF → PNG  
+- PDF → TXT  
+- HEIF / HEIC → PDF  
+- HTML → PDF  
+- Markdown → PDF  
+- Word → PDF  
+- XLSX → PDF  
+- PPT / PowerPoint → PDF  
+- RTF → PDF  
+- WEBP → PDF / JPEG / PNG  
+- SVG → PDF / PNG / JPEG  
+- Image Compression  
 
+---
 
-## Tech Stack & Libraries
+### ✏️ Editing & Management Tools
 
-- HTML, CSS, JavaScript (no framework required)
-- Core libraries:
-  - pdf-lib (in-browser PDF creation/editing)
-  - Mozilla PDF.js (rendering PDFs for previews/thumbnails)
-  - JSZip (ZIP packaging for multi-file downloads)
-  - Pica (high-quality image resizing)
-  - FileReader (vendor) & PPTXJS (vendor) for PPTX preprocessing
+- Compress PDF  
+- Merge PDF  
+- Split PDF  
+- Extract Pages  
+- Remove Pages  
+- Sort Pages  
+- Rotate Pages  
+- Flatten PDF  
+- Compare PDFs  
 
-## Privacy by Design
+---
 
-- 100% client-side processing; your files never leave your device.
-- No ads, no account required, unlimited usage.
-- Minimal, privacy-respecting analytics via Plausible; see Privacy Policy for details.
+### 🔐 Privacy & Security Tools
 
-## Contributing
+- Remove Metadata  
+- Edit Metadata  
+- Encrypt PDF (AES-256)  
+- Remove PDF Password *(if you know it)*  
 
-We welcome contributions from the community! Whether you're a developer, a designer, or just someone who is passionate about privacy, we'd love to have your help.
+---
 
-Basic flow:
+## 🧠 How It Works
 
-1. Fork the repo and create a feature branch.
-2. Make changes (keep code simple and fast; avoid server-side dependencies).
-3. Open a Pull Request describing your change and which tools/pages it affects.
-4. For UI changes, include before/after screenshots if possible.
+1. Open gPDF in your browser  
+2. Select a tool  
+3. Load your file  
+4. Process everything **locally**
 
-Questions or ideas? Email us: admin@gPDF.com
+📌 **Your files never leave your device.**
 
-## License
+---
 
-gPDF is licensed under the GNU Affero General Public License v3.0. See the [LICENSE](LICENSE) file for more details.
+## 🧑‍💻 Tech Stack
+
+**No frameworks required.**  
+Built for speed, simplicity, and efficiency.
+
+- HTML  
+- CSS  
+- JavaScript  
+
+### Core Libraries
+
+- **pdf-lib** – PDF creation & editing (in-browser)  
+- **Mozilla PDF.js** – PDF rendering & previews  
+- **JSZip** – ZIP packaging for batch downloads  
+- **Pica** – High-quality image resizing  
+- **FileReader** & **PPTXJS** – PPTX preprocessing  
+
+---
+
+## 🛡️ Privacy by Design
+
+- 100% client-side processing  
+- No ads, no accounts, no file limits  
+- Unlimited batch processing  
+- Minimal analytics via **Plausible** (see Privacy Policy)  
+
+📄 **Privacy Policy:** https://gpdf.page.gd/privacy.html  
+📄 **Terms of Service:** https://gpdf.page.gd/terms.html  
+
+---
+
+## 🤝 Contributing
+
+Contributions are **very welcome** ❤️
+
+### Basic Flow
+
+1. Fork the repository  
+2. Create a feature branch  
+3. Keep code **simple, fast & client-side only**  
+4. Open a Pull Request  
+5. For UI changes, include **before/after screenshots**
+
+Have ideas or questions?  
+📧 **Email:** neurici@gmail.com  
+
+---
+
+## ❤️ Support gPDF
+
+If you like the project and want to help:
+
+- ⭐ Star the repo  
+- 💬 Share gPDF with others  
+- 💸 Donate or sponsor the project  
+
+👉 https://gpdf.page.gd/support.html  
+
+---
+
+## 📜 License
+
+gPDF is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+
+See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🔗 Links
+
+- 🌐 Website: https://gpdf.page.gd/
+- 📰 Blog: https://gpdf.page.gd/blog.html
+- 🧾 Changelog: https://gpdf.page.gd/changelog.html
+- 🧠 GitHub: https://github.com/neurici/gPDF
